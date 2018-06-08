@@ -1,0 +1,26 @@
+.test {
+  display: inline-block;
+  object-fit: fill;
+  height: 10rem;
+  width: 10rem;
+}
+
+#gallery {
+}
+
+.imgDiv {
+  overflow: hidden;
+  margin: .25em;
+}
+
+.img-thumbnail:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
+.img-thumbnail {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  -webkit-transform:scale(1);
+  transform:scale(1);
+}

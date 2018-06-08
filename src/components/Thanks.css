@@ -1,0 +1,50 @@
+.thanksDiv {
+    background-image: linear-gradient(0deg, #252525, #000000);
+    max-width: 100%;
+}
+
+.thanksDiv h2 {
+    color: white;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: .425em;
+}
+
+.thanksDiv h3 {
+    color: #FFBFBB;
+    margin-top: 0px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    letter-spacing: .425em;
+    line-height: 160%;
+}
+
+.thanksDiv li {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .024em;
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.staffDiv, .photoDiv {
+    /* margin: 4em 20em; */
+    width: 100%;
+} 
+
+
+.nssLogo {
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+.thanksDiv p {
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .425em;
+    margin: 0;
+    padding-bottom: 3em;
+}

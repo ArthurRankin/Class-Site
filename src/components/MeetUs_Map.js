@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router';
-import './Home.css';
-import { Route } from 'react-router-dom';
+import './MeetUs_Map.css';
 import Gallery from './Gallery';
 
 
@@ -46,17 +44,14 @@ class MeetUsMap extends Component {
 
         if(error) {
             return(
-                <div>Error: try again mofo</div>
+                <div>Error: Please reload the page.</div>
             )
         // } else if(!imagesLoaded) {
         //     return <div>Loading...</div>
         } else if(!imagesLoaded){
             return(
             <div id="detailsPage">
-                <div className="">
-                    <Gallery />
-                </div>
-
+              <Gallery />
             </div>
             )
         }

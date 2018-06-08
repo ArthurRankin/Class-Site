@@ -4,14 +4,13 @@ import './App.css';
 import Nav from './components/Nav.js';
 import Main from './components/Main';
 
-import PeopleDeets from './components/PeopleDeets';
-
 class App extends Component {
   render() {
     return (
         <div className="App">
           <Nav />
           <Main />
+
         </div>
     );
   }

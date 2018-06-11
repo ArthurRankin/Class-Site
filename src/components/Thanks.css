@@ -1,0 +1,65 @@
+.thanksDiv {
+    background-image: linear-gradient(0deg, #252525, #000000);
+    max-width: 100%;
+    margin-top: -1px;
+}
+
+.thanksDiv h2 {
+    color: white;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 34px;
+    letter-spacing: .425em;
+}
+
+.thanksDiv h3 {
+    color: #FFBFBB;
+    margin-top: 0px;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: .2em;
+    line-height: 120%;
+}
+
+.thanksDiv li {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .024em;
+    display: inline-block;
+    margin: .5em 1em;
+}
+
+.staffDiv, .photoDiv {
+    /* margin: 4em 20em; */
+    width: 100%;
+} 
+
+
+.nssLogo {
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+.thanksDiv p {
+    font-size: .75em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    margin: 0;
+    padding: 0 1em 1em;
+}
+
+@media (min-width: 768px){
+    .thanksDiv h3 {
+        font-size: 25px;
+        letter-spacing: .425em;
+        line-height: 160%;
+    }
+
+    .thanksDiv p {
+        font-size: 1em;
+        letter-spacing: .425em;
+        padding-bottom: 3em;
+    }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../App.css';
+import './Technologies.css';
 import data from './../tech.json';
 
 class Technologies extends Component{
@@ -10,11 +10,9 @@ class Technologies extends Component{
     };
 
     componentDidMount = () => {
-        console.log("tech did mount");
         this.setState({
             techLoaded: true
         })
-        // console.log('techInfo', this.state.techInfo);
     }
 
 
@@ -22,12 +20,16 @@ class Technologies extends Component{
         let {techLoaded, techInfo} = this.state;
 
         if(!techLoaded) {
-            return( 
+            return(
                 <div>Loading...</div>
         )} else if(techLoaded){
-            // console.log('line 28', techInfo)
         let techData = techInfo.tech.map((data,index) => (
-                <div className="col-sm-1 mx-auto my-3" id={index}>
+                <div className="techIcons" id={index} >
+                    <img className="img-fluid filter" src={data.image} alt={data.name} />
+                </div>
+            ))
+        let designData = techInfo.design.map((data,index) => (
+                <div className="techIcons" id={index}>
                     <img className="img-fluid filter" src={data.image} alt={data.name} />
                 </div>
             ))
@@ -35,11 +37,16 @@ class Technologies extends Component{
 
                 <div id="Tech" className="tech">
                     <h2>Technologies Used</h2>
-                    <div className="container-fluid row mb-5">
+                    <h3>Development</h3>
+                    <div className="justify-content-center row px-5 mb-5">
                         {techData}
                     </div>
-                </div>
-        )}
+                    <h3>Design</h3>
+                    <div className="justify-content-center row px-5 mb-5">
+                        {designData}
+                    </div>
+                </div>        
+            )}
     }
 }
 

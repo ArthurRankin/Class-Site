@@ -1,49 +1,51 @@
 .meetUs{
-    background-color: #FFBFBB;
-    margin: 3em 0 0 0;
-    padding-top: 4em;
-}
-
-.flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    width: 80%;
+    background-color: #FFDFDC;
+    margin: 0 auto;
+    padding: 2em 0;
+    width: 100%;
 }
 
 .flex-item {
     height: 130px;
-    margin: 1rem;
-  }
+    margin: 1em;
+  } 
   
+  #detailsPage{
+    align-self: center;
+    align-content: center;
+    margin: 0 6em;
+  }
+
+  .gallery-grid {
+    display: flex ;
+    flex-grow: inherit;
+    flex-flow: row wrap;
+    align-items: center;
+    /* justify-content: center; */
+    align-content: space-around;
+  }
+
+  .img-thumbnail {
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    opacity: .88;
+  }
+
+  .img-thumbnail:hover {
+    opacity: 1;
+  }
+
+  #detailsPage {
+    display: flex;
+    align-items: center;
+  }
   
 
-.arrow {
-    /* margin-bottom: 2rem; */
-    padding-bottom: 3rem;
-    padding-left: .5rem;
-    margin: 3rem;
-    width: 8%;
-    position: relative;
-    -webkit-animation-name: down;  /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    -webkit-animation-fill-mode: backwards; /* Safari 4.0 - 8.0 */
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-name: down;
-    animation-duration: 2s;    
-    animation-delay: 3s;
-    animation-fill-mode: backwards;
-  }
-  
-  /* Safari 4.0 - 8.0 */
-@-webkit-keyframes down {
-    to {top: 0px;}
-    from {top: 50px;}
-  }
-  
-  @keyframes down {
-    from {top: 0px;}
-    to {top: 50px;}
+  @media (min-width:1024px){
+    .meetUs{
+      padding: 5em 2em;
+    }
   }

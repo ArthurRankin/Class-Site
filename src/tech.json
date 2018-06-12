@@ -37,7 +37,7 @@
       },
       {
         "name": "CSS3",
-        "image": "./img/techs/css3.png",
+        "image": "./img/techs/css.svg",
         "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
       },
       {
@@ -77,12 +77,12 @@
       },
       {
         "name": "ES lint",
-        "image": "./img/techs/eslint.png",
+        "image": "./img/techs/eslint.svg",
         "link": "https://eslint.org/"
       },
       {
         "name": "React Styleguidist",
-        "image": "./img/techs/styleguidist.png",
+        "image": "./img/techs/rs.svg",
         "link": "https://github.com/styleguidist/react-styleguidist"
       },
       {
@@ -90,6 +90,13 @@
         "image": "./img/techs/reactstraplogo.png",
         "link": "https://reactstrap.github.io/"
       },
+      {
+        "name": "Babel",
+        "image": "./img/techs/babel.png",
+        "link": "https://babeljs.io/"
+      }      
+    ],
+    "design": [
       {
         "name": "XD",
         "image": "./img/techs/adobexd.png",
@@ -102,7 +109,7 @@
       },
       {
         "name": "Sketch",
-        "image": "./img/techs/sketch.jpeg",
+        "image": "./img/techs/sketch.png",
         "link": "https://www.sketchapp.com/"
       },
       {
@@ -111,29 +118,31 @@
         "link": "https://xtensio.com/"
       },
       {
-        "name": "Babel",
-        "image": "./img/techs/babel.jpg",
-        "link": "https://babeljs.io/"
-      },
-      {
         "name": "Photoshop",
         "image": "./img/techs/pslogo.png",
         "link": "https://www.adobe.com/products/photoshop.html"
       },
       {
-        "name": "Illustator",
+        "name": "Illustrator",
         "image": "./img/techs/ailogo.png",
         "link": "https://www.adobe.com/products/illustrator.html"
       },
       {
         "name": "Trello",
-        "image": "./img/techs/trello-logo-blue.png",
+        "image": "./img/techs/trello.png",
         "link": "https://trello.com/home"
       },
       {
         "name": "Semantic UI",
         "image": "./img/techs/semanticui.png",
         "link": "https://semantic-ui.com/"
+      },
+      {
+        "name": "Post-it Notes",
+        "image": "./img/techs/post-it.png",
+        "link": "https://www.post-it.com/3M/en_US/post-it/"
       }
     ]
   }
+
+
